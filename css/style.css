@@ -451,7 +451,7 @@ footer {
       outline: 0px; }
       .container-form form .campo textarea,
       .container-form textarea textarea {
-        width: 530px;
+        width: 100%;
         height: 140px; }
     .container-form .btn-enviar {
       padding: 15px;
