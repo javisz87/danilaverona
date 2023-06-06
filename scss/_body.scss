@@ -1,0 +1,13 @@
+$color-primario: #e48754;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    background-color: $color-primario;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+  }

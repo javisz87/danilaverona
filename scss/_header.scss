@@ -1,0 +1,24 @@
+/*HEADER*/
+
+.custom-navbar {
+    background-image: linear-gradient(to bottom right, burlywood, #b9763c);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+    .logo-img {
+      max-width: 150px;
+      height: auto;
+    }
+    
+    .nav-link {
+      font-size: 1.3rem;
+      margin-right: 40px;
+      transition: background-color 0.3s ease;
+      
+      &:hover {
+        background-color: #28a745;
+        color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+      }
+    }
+  }
