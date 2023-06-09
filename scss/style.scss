@@ -4,21 +4,10 @@
 @import "productos";
 @import "sobremi";
 @import "contacto";
+@import "galeriadefotos";
+@import "footer"; 
 
 
-/* FOOTER*/
-
-footer {
-    height: 140px;
-    background-image: linear-gradient(to bottom right, burlywood, rgb(185, 118, 60));
-    background-color: burlywood;
-    text-align: center;
-    
-    .imgfotter {
-      width: 100px;
-      margin-top: 10px;
-    }
-  }
 
   /*RESPONSIVO*/
 

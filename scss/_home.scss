@@ -120,6 +120,7 @@
     img {
       width: 200px;
       height: 200px;
+      border-radius: 5px;
     }
   }
   
@@ -141,26 +142,4 @@
     }
   }
 
-  /*GALERIA DE FOTOS*/
-
-  .caja {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
   
-  .img-caja {
-    width: 170px;
-    height: 170px;
-    padding: 2px;
-    margin: 10px;
-    border: 2px solid black;
-    
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-}
